@@ -2,7 +2,7 @@
 
 // Define an alarm name
 const alarmName = "clearVisitedDomains";
-const INTERVAL = 0.2;
+const INTERVAL = .1;
 
 function getCurrentTime() {
     const now = new Date();
