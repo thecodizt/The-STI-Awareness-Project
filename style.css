@@ -1,0 +1,12 @@
+.logo {
+    max-width: 400px;
+    width: 100%;
+    height: auto;
+}
+
+/* CSS to make the image smaller */
+.smaller-image {
+    max-width: 100%;
+    height: auto;
+    max-height: 200px; /* Adjust the height as needed */
+}

@@ -1,7 +1,7 @@
 // Blacklists
-const DOMAINS = [ 'youtube.com' ];
-const WORDS = [ 'google', 'chrome', 'a', 'an' ];
-const THRESHOLD = 0;
+const DOMAINS = [ 'www.pornhub.com' ];
+const WORDS = [ 'xxx', 'sex' ];
+const THRESHOLD = 2;
 
 const HOME_URL = 'google.com';
 
