@@ -1,11 +1,11 @@
 [build]
   command = "npm run build"
-  publish = "build"
-  base = "/Blog"  # Updated to include a leading slash
+  publish = "Blog/build"
+  base = "/Blog"
 
 [[redirects]]
   from = "/*"
-  to = "/index.html"  # Update the "to" value to include "/Blog/"
+  to = "/index.html"  # Redirect requests to root index.html
   status = 200
   force = true
 
