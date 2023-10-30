@@ -1,6 +1,6 @@
 [build]
   command = "npm run build"
-  publish = "Blog/build" # Update the publish directory path
+  publish = "/build" # Update the publish directory path
   base = "/Blog"
 
 [[redirects]]
