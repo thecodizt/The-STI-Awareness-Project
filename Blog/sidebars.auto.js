@@ -22,6 +22,7 @@ module.exports = {
             "Statistical Reports/what-is-sti"
         ]
     },
-    "recent"
+    "recent",
+    "welcome"
 ]
 };

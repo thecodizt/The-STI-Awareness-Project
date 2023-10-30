@@ -8,11 +8,11 @@ const darkCodeTheme = require( 'prism-react-renderer/themes/dracula' );
 const config = {
   title: 'Blogs and Statistal Reports',
   tagline: 'The STI Awareness Project',
-  url: '/index.html',
-  baseUrl: '/',
+  url: '/',
+  baseUrl: '/Blog/',
   onBrokenLinks: 'throw',
   onBrokenMarkdownLinks: 'warn',
-  favicon: '/Assets/favicon.ico',
+  favicon: 'img/favicon.ico',
   organizationName: 'thecodizt', // Usually your GitHub org/user name.
   projectName: 'the-sti-awareness-project', // Usually your repo name.
 
@@ -40,7 +40,7 @@ const config = {
         title: 'The STI Awareness Blog',
         logo: {
           alt: 'STI Awareness Logo',
-          src: 'img/Logo - Transparent.png',
+          src: 'img/Logo.png',
         },
         items: [
           {
