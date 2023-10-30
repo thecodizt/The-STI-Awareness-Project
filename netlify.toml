@@ -1,11 +1,11 @@
 [build]
   command = "npm run build"
-  publish = "Blog/build"
+  publish = "Blog/build" # Update the publish directory path
   base = "/Blog"
 
 [[redirects]]
   from = "/*"
-  to = "/index.html"  # Redirect requests to root index.html
+  to = "/index.html"
   status = 200
   force = true
 
