@@ -3,7 +3,7 @@ const DOMAINS = [ 'www.pornhub.com' ];
 const WORDS = [ 'xxx', 'sex' ];
 const THRESHOLD = 2;
 
-const HOME_URL = 'google.com';
+const HOME_URL = 'https://sti-awareness-project.netlify.app/';
 
 const quizContent = {
     questions: [
