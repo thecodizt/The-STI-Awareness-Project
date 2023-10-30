@@ -1,7 +1,7 @@
 [build]
   command = "npm run build"
   publish = "build"
-  base = "/Anonymous-Chat"
+  base = "/Blog"
 
 [[redirects]]
   from = "/*"
@@ -10,7 +10,7 @@
   force = true
 
 [[redirects]]
-  from = "/Anonymous-Chat/*"
-  to = "/Anonymous-Chat/index.html"
+  from = "/Blog/*"
+  to = "/Blog/index.html"
   status = 200
   force = true
