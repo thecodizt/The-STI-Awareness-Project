@@ -8,7 +8,7 @@ const darkCodeTheme = require( 'prism-react-renderer/themes/dracula' );
 const config = {
   title: 'Blogs and Statistal Reports',
   tagline: 'The STI Awareness Project',
-  url: '/',
+  url: 'https://sti-awareness-project.netlify.app/',
   baseUrl: '/Blog/',
   onBrokenLinks: 'throw',
   onBrokenMarkdownLinks: 'warn',
