@@ -1,0 +1,16 @@
+[build]
+  command = "npm run build"
+  publish = "build"
+  base = "/Anonymous-Chat"
+
+[[redirects]]
+  from = "/*"
+  to = "/index.html"
+  status = 200
+  force = true
+
+[[redirects]]
+  from = "/Anonymous-Chat/*"
+  to = "/Anonymous-Chat/index.html"
+  status = 200
+  force = true
